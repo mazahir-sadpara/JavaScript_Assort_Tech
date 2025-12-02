@@ -38,3 +38,31 @@ const myFunction = function (){
     console.log("Hello");
 }
 myFunction()
+
+//**************************Memory*************************************/
+
+//Stack Memory => used in case of Primitive Data Types => copy of value milti hai
+//Heap Memory  => used in case of Non Primitive Data Types => value ka reference milta hai
+
+//Stack Memory Example
+let nam = "Mazahir"
+let anotherNam = nam;
+// console.log(anotherNam)
+// anotherNam = "Salman"
+// console.log(anotherNam)
+// console.log(nam)
+
+//Heap Memory Example
+
+let userOne = {
+    email: "mazahir@gmail.com",
+    age: 22
+}
+
+let userTwo = userOne
+
+userTwo.email = "Hello@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
