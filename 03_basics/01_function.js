@@ -34,4 +34,34 @@ function loginUserMessage(username = "sam") {
 
 // console.log(loginUserMessage("Mazahir"));
 // console.log(loginUserMessage(""));
-console.log(loginUserMessage("Maz"));
+// console.log(loginUserMessage("Maz"));
+
+function calculateCartPrice (val1, val2, ...num) {
+    return num
+}
+
+// console.log(calculateCartPrice(200, 300, 400, 500));
+
+// const user = {
+//     name: "mazahir",
+//     prices: 9999
+// }
+
+function handleObject (anyobject) {
+    // console.log(`Username is ${anyobject.name} and price is ${anyobject.price}`);
+    
+}
+
+handleObject({
+    name: "mazahir",
+    price: 9999
+})
+
+const myNewArray = [100, 200, 300]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+
+console.log(returnSecondValue([10, 20, 30]));
+
